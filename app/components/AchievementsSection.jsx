@@ -32,8 +32,8 @@ const achievements = [
 
 const AchievementsSection = () => {
   return (
-    <div className='pt-40  px-4 xl:gap-16 sm:pt-32 xl:px-16'>
-      <div className='border border-[#33353f] rounded-md pt-8 pb-1 px-2 flex flex-row items-center justify-between flex-wrap'>
+    <div className='pt-40  px-0 xl:gap-16 sm:pt-32 xl:px-16'>
+      <div className='border border-[#33353f] rounded-md pt-8 pb-1 px-2 grid grid-cols-2 gap-3'>
 
      
       {achievements.map((achievement, index) => (

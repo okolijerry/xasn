@@ -81,7 +81,7 @@ const EmailSection = () => {
                 Send Message
             </button>
         </form>
-          )};
+          )}
       </div>
     </section>
   )
