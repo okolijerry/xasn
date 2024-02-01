@@ -8,12 +8,29 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+img{
+  object-fit: cover;
+  object-position: center;
+}
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
+}
+
+.section{
+  width: 90%;
+  padding: 2rem;
 }
 
 body {
